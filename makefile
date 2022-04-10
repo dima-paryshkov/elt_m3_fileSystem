@@ -9,3 +9,9 @@ ls-al: ls-al.c
 
 io13-1:
 	gcc io13-1.c -o bin/io13-1
+
+standartio: standartio.c
+	gcc standartio.c -o bin/standartio
+
+multiplexio: multiplexio.c
+	gcc multiplexio.c -o bin/multiplexio
