@@ -31,9 +31,7 @@ int main(void)
 
     if (fd == -1)
     {
-
         /* Если файл открыть не удалось, выдаем сообщение об ошибке и завершаем работу */
-
         printf("File open failed!\n");
         exit(1);
     }
@@ -56,9 +54,7 @@ int main(void)
 
     if (ptr == MAP_FAILED)
     {
-
         /* Если отобразить файл не удалось, сообщаем об ошибке и завершаем работу */
-
         printf("Mapping failed!\n");
         exit(2);
     }
