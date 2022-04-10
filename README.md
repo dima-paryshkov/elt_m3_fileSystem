@@ -51,3 +51,18 @@ Compile:
 Launch: 
 
     bin/standartio
+
+#### Select
+
+Programm tracks fd standart input with select
+
+Compile: 
+
+    make multiplexio
+    or
+	gcc multiplexio.c -o bin/multiplexio
+
+Launch: 
+
+    bin/multiplexio
+
